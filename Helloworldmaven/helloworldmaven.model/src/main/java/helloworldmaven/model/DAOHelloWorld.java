@@ -24,9 +24,9 @@ public class DAOHelloWorld {
 		return instance;
 	}
 	
-	private static void setInstance(DAOHelloWorld instance) {
+	//private static void setInstance(DAOHelloWorld instance) {
 		
-	}
+	//}
 	
 	private void readFile() {
 		InputStream is = getClass().getClassLoader().getResourceAsStream(FileName);//permet de lire le flux
