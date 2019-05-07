@@ -6,4 +6,11 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>helloworldmaven.view</artifactId>
+  <dependencies>
+  	<dependency>
+  		<groupId>fr.exia</groupId>
+  		<artifactId>helloworldmaven.contract</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
